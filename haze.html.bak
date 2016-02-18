@@ -12,6 +12,41 @@
   margin-bottom: 1.5em;
   background: #eee;
 }
+
+.box{
+	width:100px;
+	height:125px;
+	float:left;
+}
+
+
+
+.pic{
+	background:#900;
+	width:100px;
+	height:100px;
+	text-align:center;
+	line-height:100px;
+	float:left;
+}
+
+.text{
+	background:#9C0;
+	width:100px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	float:left;
+}
+
+.box li{
+	list-style:none;
+}
+
+.box li a{
+	color:#fff;
+	text-decoration:none;
+}
 </style>
  </head>
 
@@ -19,10 +54,56 @@
 <div style="clear: both;">
 <div class="section">
 <h2>1 </h2>
-<img title="1_1" style="float: left; padding-left: .01em; height: 400px;" src="images/img1/1 origin.jpg" />
-<img title="1_2" style="float: right; padding-right: .01em; height: 400px;" src="images/img1/1(1) Dark channel prior.jpg" />
+
+<div style="float: left; padding-left: .01em; height: 400px;">
+<div class="box">
+<li class="pic"><img title="1 origin" style="height: 400px;" src="images/img1/1 origin.jpg" /></li>
+<li class="text">origin</li>
+</div>
+</div>
+
+<div style="float: left; padding-left: .01em; height: 400px;">
+<div class="box">
+<li class="pic"><img title="1 origin" style="height: 400px;" src="images/img1/1(1) Dark channel prior.jpg" /></li>
+<li class="text">Dark channel prior</li>
+</div>
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<div style="float: left; padding-left: .01em; height: 400px;">
+<div class="box">
+<li class="pic"><img title="1 origin" style="height: 400px;" src="images/img1/1 origin.jpg" /></li>
+<li class="text">origin</li>
+</div>
+</div>
+<div style="float: left; padding-left: .01em; height: 400px;">
+<div class="box">
+<li class="pic"><img title="1 origin" style="height: 400px;" src="images/img1/1(1) Dark channel prior.jpg" /></li>
+<li class="text">Dark channel prior</li>
+</div>
+</div>
+
+
+<!--
+<div style="float: left; padding-left: .01em; height: 400px;">
+<img title="1 origin" style="height: 400px;" src="images/img1/1 origin.jpg" />
+
+</div>
+<div style="float: left; padding-left: .01em; height: 400px;">
+<img title="1 origin" style="height: 400px;" src="images/img1/1(1) Dark channel prior.jpg" />
+
+</div>
+
+-->
+
 </div>
 </div>
   
  </body>
 </html>
+
+
+
